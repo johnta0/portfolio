@@ -34,11 +34,6 @@
         in June 2019. Though I usually play $1-3 as a beginner, I'm studying hard so that
         I can play $2-5 profitably.
       </p>
-
-      <h2>Contact</h2>
-            <p><font-awesome-icon :icon="['fab', 'keybase']" />
-              <a href="https://keybase.io/j0hnta/chat"> Keybase chat</a>
-            </p>
     </div>
   </div>
 </template>

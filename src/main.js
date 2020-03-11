@@ -8,7 +8,6 @@ import axios from 'axios'
 
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import Subscribe from './views/Subscribe.vue'
 
 /* Font Awesome */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -33,14 +32,16 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     { path: '/', component: Home },
-    { path: '/about', component: About },
-    { path: '/subscribe', component: Subscribe }
+    { path: '/about', component: About }
   ]
 })
 
 Vue.prototype.axios = axios
 
 new Vue({
+  data: {
+    title: "j0hnta's website"
+  },
   router,
   render: h => h(App),
 }).$mount('#app')
