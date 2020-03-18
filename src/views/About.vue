@@ -8,16 +8,35 @@
     <div class="article">
       <p></p>
 
-      <h2>Education</h2>
+      <h2>😍What I love to do</h2>
+      <h3>Travel</h3>
+      <p>
+        I'm a travelholic.<br>
+        The countries and areas I have ever visited (excluding transit): <br>
+          🇲🇾🇹🇭🇨🇳🇰🇷🇹🇼🇭🇰🇲🇴🇰🇭🇻🇳
+      </p>
+
+      <h3>♠Poker</h3>
+      <p>
+        I'm into texas hold'em ever since I first played it at the casino in Phnom Penh
+        in June 2019. Though I usually play $1/3 as a beginner, I'm studying hard so that
+        I can play $2/5, $5/10 profitably.
+      </p>
+
+      <h2>🎓Education</h2>
       <p>
         BS, Physics.
       </p>
-      <p>
-        I like Analytical Mechanics because it's more principle-based than any other
-        field in physics.
-      </p>
 
-      <h2>Interests</h2>
+      <h2>💻Experiences & Skills</h2>
+        <ul>
+          <li>Web development in Ruby on Rails</li>
+          <li>Developed cryptocurrency wallet system for enterprise (backend, TypeScript)</li>
+          <li>Basics of Natural Language Processing</li>
+          <li>Contributed (a bit) to some OSS (see <a href="https://github.com/johnta0">GitHub</a>)</li>
+        </ul>
+
+      <h2>🔍Interests</h2>
       <h3>Software Developments</h3>
         <p>
           I'd prefer to develop softwares in which theories of mathematics / microeconomics
@@ -36,19 +55,10 @@
           I'm interested in both money games and solid investments.
         </p>
       
-      <h2>What I love to do</h2>
-      <h3>Travel</h3>
+      
+      <h2>Looking for a job!</h2>
       <p>
-        I'm a travelholic.<br>
-        The countries and areas I have ever visited (excluding transit): <br>
-          🇲🇾🇹🇭🇨🇳🇰🇷🇹🇼🇭🇰🇲🇴🇰🇭🇻🇳
-      </p>
-
-      <h3>Poker</h3>
-      <p>
-        I'm into texas hold'em ever since I first played it at the casino in Phnom Penh
-        in June 2019. Though I usually play $1/3 as a beginner, I'm studying hard so that
-        I can play $2-5 profitably.
+        If you liked me, <a href="https://j0hnta.com">contact me</a>!
       </p>
     </div>
   </div>
@@ -119,7 +129,7 @@ h2 {
 
 h3 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   padding: 18px 0 0 0;
   margin: 0;
 }
