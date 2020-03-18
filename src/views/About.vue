@@ -31,7 +31,7 @@
           to make big one.
         </p>
 
-      <h3><Investments / Speculations </h3>
+      <h3>Investments / Speculations </h3>
         <p>
           I'm interested in both money games and solid investments.
         </p>
