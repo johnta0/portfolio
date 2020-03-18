@@ -18,7 +18,23 @@
       </p>
 
       <h2>Interests</h2>
+      <h3>Software Developments</h3>
+        <p>
+          I'd prefer to develop softwares in which theories of mathematics / microeconomics
+          are applied, rather than ordinary web systems. Specifically, I have my interests in
+          implementing game theory, auction theory, board trading systems and financial theories, etc.
+        </p>
+      
+      <h3>Small Business</h3>
+        <p>
+          I would like to have my own business some time in the near future. I'm not willing
+          to make big one.
+        </p>
 
+      <h3><Investments / Speculations </h3>
+        <p>
+          I'm interested in both money games and solid investments.
+        </p>
       
       <h2>What I love to do</h2>
       <h3>Travel</h3>
@@ -31,7 +47,7 @@
       <h3>Poker</h3>
       <p>
         I'm into texas hold'em ever since I first played it at the casino in Phnom Penh
-        in June 2019. Though I usually play $1-3 as a beginner, I'm studying hard so that
+        in June 2019. Though I usually play $1/3 as a beginner, I'm studying hard so that
         I can play $2-5 profitably.
       </p>
     </div>
