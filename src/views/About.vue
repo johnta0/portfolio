@@ -43,6 +43,17 @@
           are applied, rather than ordinary web systems. Specifically, I have my interests in
           implementing game theory, auction theory, board trading systems and financial theories, etc.
         </p>
+
+      <h3>Brain and Conciousness</h3>
+        <p>
+          I've been always interested in how brain makes up conciousness ever since I was 14 yo.
+        </p>
+
+      <h3>Moving</h3>
+        <p>
+          I can't live in one place for years. I can't help but moving between cities (not villages)
+           in short terms.
+        </p>
       
       <h3>Small Business</h3>
         <p>
@@ -54,7 +65,6 @@
         <p>
           I'm interested in both money games and solid investments.
         </p>
-      
       
       <h2>Looking for a job!</h2>
       <p>
