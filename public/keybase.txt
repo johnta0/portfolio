@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/j0hnta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://j0hnta.com
+  * I am j0hnta (https://keybase.io/j0hnta) on keybase.
+  * I have a public key ASDm_r0FCU6zxfmgJYEzZHRbQ0Z2ZnlLtMV8r6zLxg35Mgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e6febd05094eb3c5f9a025813364745b43467666794bb4c57cafaccbc60df9320a",
+      "host": "keybase.io",
+      "kid": "0120e6febd05094eb3c5f9a025813364745b43467666794bb4c57cafaccbc60df9320a",
+      "uid": "c8ec80b3f091db2d0e84f526f49ddd19",
+      "username": "j0hnta"
+    },
+    "merkle_root": {
+      "ctime": 1608377400,
+      "hash": "156d22e85d3dfc72513b3ff1215907770c41e95e4d759101173ff6cfa2701f48ddc51cad389fe282a8167df9906d9981c8031dbddacd54be32fda2ed59cdebb6",
+      "hash_meta": "b50001c790c1fe6222be0e1d7c39da9554a652bb680bf7c02291575dd5cc9924",
+      "seqno": 18448952
+    },
+    "service": {
+      "entropy": "yBOpfaqDDODtHAImyRbvMekg",
+      "hostname": "j0hnta.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1608377574,
+  "expire_in": 504576000,
+  "prev": "20861569edfd1c0bd20890926c39eb96d1901c27ac276ab88d02c5674578d365",
+  "seqno": 101,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5v69BQlOs8X5oCWBM2R0W0NGdmZ5S7TFfK+sy8YN+TIKp3BheWxvYWTESpcCZcQgIIYVae39HAvSCJCSbDnrltGQHCesJ2q4jQLFZ0V402XEIKDH23Cbj6hIU5yVhpcXLpqHQ+aoTliOgb8qaLznkO2iAgHCo3NpZ8RAue0SpF94ZJT72eNvZy4BixYZ0dXT5VqEkY5d9HTWy40iwxazCNMZXYtbY8ImGsOE6acUyQyJMh4EMTKXCeq+CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOpHXd318QOqx7M2BrMaAiuLXx8CuZG8WL9eBpGlpJTjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/j0hnta
+
+==================================================================
