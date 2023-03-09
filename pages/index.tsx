@@ -41,11 +41,11 @@ const links = [
     label: 'Zenn',
     href: 'https://zenn.dev/j0hnta',
   },
-  {
-    icon: CVIcon,
-    label: 'CV',
-    href: 'https://johnta0.github.io/cv',
-  },
+  // {
+  //   icon: CVIcon,
+  //   label: 'CV',
+  //   href: 'https://johnta0.github.io/cv',
+  // },
 ]
 
 export default function Home() {
