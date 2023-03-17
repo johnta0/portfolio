@@ -13,7 +13,7 @@ type Props = {
 
 export default function CVPage({ mdxSource }: Props) {
   return (
-    <Center>
+    <Center paddingBottom={8}>
       <Box>
         <MDXRemote {...mdxSource} components={MDXComponents} />
       </Box>

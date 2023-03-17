@@ -1,13 +1,5 @@
 import LinkIcon, { LinkIconProps } from '@/components/LinkIcon'
-import {
-  Image,
-  VStack,
-  Text,
-  HStack,
-  Icon,
-  IconProps,
-  Link,
-} from '@chakra-ui/react'
+import { Image, VStack, Text, HStack } from '@chakra-ui/react'
 // icons
 import { DiGithubBadge } from 'react-icons/di'
 import { IoLogoLinkedin } from 'react-icons/io'
@@ -40,31 +32,31 @@ const links: LinkIconProps[] = [
 
 export default function Home() {
   return (
-    <>
-      <VStack
-        as={'section'}
-        alignItems={'center'}
-        textAlign={'center'}
-        spacing={{ base: 8, md: 6 }}
-        py={{ base: 20, md: 60 }}
-      >
-        <Image
-          src="https://pbs.twimg.com/profile_images/1593660299814400000/nozW-oZq_400x400.jpg"
-          alt="Icon of @j0hnta0"
-          width="150"
-          height="150"
-          placeholder="blur"
-          borderRadius="full"
-        />
-        <VStack>
-          <Text color="white">Junta Ono</Text>
-        </VStack>
-        <HStack>
-          {links.map((link) => (
-            <LinkIcon key={link.href} {...link} />
-          ))}
-        </HStack>
+    <VStack
+      as={'section'}
+      alignItems={'center'}
+      textAlign={'center'}
+      spacing={{ base: 8, md: 6 }}
+      py={{ base: 20, md: 60 }}
+    >
+      <Image
+        src="https://pbs.twimg.com/profile_images/1593660299814400000/nozW-oZq_400x400.jpg"
+        alt="Icon of @j0hnta0"
+        width="150"
+        height="150"
+        placeholder="blur"
+        borderRadius="full"
+      />
+      <VStack>
+        <Text color="whiteAlpha.800" fontSize="2xl">
+          Junta Ono
+        </Text>
       </VStack>
-    </>
+      <HStack>
+        {links.map((link) => (
+          <LinkIcon key={link.href} {...link} />
+        ))}
+      </HStack>
+    </VStack>
   )
 }

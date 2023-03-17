@@ -1,6 +1,7 @@
 import { Box, Container } from '@chakra-ui/react'
 import Head from 'next/head'
 import { ReactElement } from 'react'
+import Footer from './Fotter'
 
 type Props = {
   readonly children: ReactElement
@@ -24,6 +25,7 @@ export default function Layout({ children }: Props) {
       </Head>
       <Container maxW="container.md" mx="auto" paddingTop={14}>
         {children}
+        <Footer />
       </Container>
     </Box>
   )
