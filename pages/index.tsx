@@ -1,4 +1,4 @@
-import LinkIcon from '@/components/LinkIcon'
+import LinkIcon, { LinkIconProps } from '@/components/LinkIcon'
 import {
   Image,
   VStack,
@@ -14,7 +14,7 @@ import { IoLogoLinkedin } from 'react-icons/io'
 import { SiZenn } from 'react-icons/si'
 import { HiOutlineDocumentText } from 'react-icons/hi'
 
-const links = [
+const links: LinkIconProps[] = [
   {
     icon: DiGithubBadge,
     label: 'GitHub',
@@ -34,6 +34,7 @@ const links = [
     icon: HiOutlineDocumentText,
     label: 'CV',
     href: '/cv',
+    isExternal: false,
   },
 ]
 
