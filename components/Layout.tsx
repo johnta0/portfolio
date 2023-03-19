@@ -7,7 +7,7 @@ type Props = {
   readonly children: ReactElement
 }
 
-export default function Layout({ children }: Props) {
+const Layout: React.FC<Props> = ({ children }) => {
   return (
     <Box>
       <Head>
@@ -30,3 +30,5 @@ export default function Layout({ children }: Props) {
     </Box>
   )
 }
+
+export default Layout

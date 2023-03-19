@@ -5,13 +5,14 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote'
 import MDXComponents from '@/components/MDXComponents'
 import { Box, Center } from '@chakra-ui/react'
+import { NextPage } from 'next'
 export const runtime = 'nodejs'
 
 type Props = {
   mdxSource: MDXRemoteSerializeResult
 }
 
-export default function CVPage({ mdxSource }: Props) {
+const CVPage: NextPage<Props> = ({ mdxSource }) => {
   return (
     <Center paddingBottom={8}>
       <Box>
@@ -32,3 +33,5 @@ export async function getStaticProps() {
 
   return { props: { mdxSource } }
 }
+
+export default CVPage
