@@ -8,7 +8,12 @@ export type LinkIconProps = {
   isExternal?: boolean
 }
 
-const LinkIcon = ({ icon, label, href, isExternal = true }: LinkIconProps) => (
+const LinkIcon: React.FC<LinkIconProps> = ({
+  icon,
+  label,
+  href,
+  isExternal = true,
+}) => (
   <Link
     display="inline-block"
     href={href}
