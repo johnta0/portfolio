@@ -132,17 +132,17 @@ const MDXComponents = {
   ),
   //eslint-disable-next-line
   h2: (props: any) => (
+    <DocsHeading as="h2" size="lg" fontWeight="bold" {...props} />
+  ),
+  //eslint-disable-next-line
+  h3: (props: any) => (
     <DocsHeading
-      as="h2"
-      size="lg"
+      as="h3"
+      size="md"
       fontWeight="bold"
       variant="section-title"
       {...props}
     />
-  ),
-  //eslint-disable-next-line
-  h3: (props: any) => (
-    <DocsHeading as="h3" size="md" fontWeight="bold" {...props} />
   ),
   //eslint-disable-next-line
   h4: (props: any) => (
