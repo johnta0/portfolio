@@ -40,7 +40,7 @@ export default function Home() {
       py={{ base: 20, md: 60 }}
     >
       <Image
-        src="https://pbs.twimg.com/profile_images/1593660299814400000/nozW-oZq_400x400.jpg"
+        src="https://gyazo.com/17c3a9d81c49262cfe613a09798b6c6a/max_size/1000"
         alt="Icon of @j0hnta0"
         width="150"
         height="150"
